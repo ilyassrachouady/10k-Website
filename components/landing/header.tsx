@@ -35,7 +35,7 @@ export function Header() {
     >
       <div className="container">
         <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center space-x-2 transition-opacity hover:opacity-80">
             <BarChart className="h-6 w-6" />
             <span className="font-bold text-xl">ClarityAI</span>
           </Link>

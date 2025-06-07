@@ -114,7 +114,7 @@ export function NewsletterSection() {
               viewport={{ once: true }}
             >
               <div className="relative">
-                <div className="flex items-center space-x-3">
+                <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:space-x-3 sm:gap-0">
                   <div className="relative flex-1">
                     <Mail className="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-white/60" />
                     <Input
@@ -137,7 +137,7 @@ export function NewsletterSection() {
                   >
                     <Button 
                       type="submit" 
-                      className="bg-white text-primary hover:bg-white/90 px-8 py-4 h-14 rounded-xl font-medium transition-all duration-300 shadow-lg hover:shadow-xl"
+                      className="w-full sm:w-auto bg-white text-primary hover:bg-white/90 px-8 py-4 h-14 rounded-xl font-medium transition-all duration-300 shadow-lg hover:shadow-xl"
                       disabled={isSubmitting || isSubscribed}
                     >
                       {isSubmitting ? (

@@ -58,7 +58,7 @@ export function DataVisualization() {
       </CardHeader>
       <CardContent>
         <Tabs defaultValue="line">
-          <div className="flex justify-between items-center mb-4">
+          <div className="flex flex-col gap-4 sm:flex-row sm:justify-between sm:items-center mb-4">
             <TabsList>
               <TabsTrigger value="line">Line</TabsTrigger>
               <TabsTrigger value="bar">Bar</TabsTrigger>

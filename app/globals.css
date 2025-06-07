@@ -96,7 +96,7 @@
 }
 
 .premium-text-gradient {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-[#818cf8] to-[#c084fc];
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-chart-2 to-chart-3;
 }
 
 .hover-lift {

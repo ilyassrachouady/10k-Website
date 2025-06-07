@@ -30,7 +30,7 @@ export function DataSummary({ title, value, change, positive }: DataSummaryProps
         </CardTitle>
         <div className={cn(
           "flex items-center rounded-full px-2 py-1 text-xs font-medium",
-          positive ? "bg-green-500/10 text-green-500" : "bg-red-500/10 text-red-500"
+          positive ? "bg-chart-4/10 text-chart-4" : "bg-destructive/10 text-destructive"
         )}>
           {positive ? <ArrowUp className="h-3.5 w-3.5 mr-1" /> : <ArrowDown className="h-3.5 w-3.5 mr-1" />}
           {change}

@@ -56,7 +56,7 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-muted opacity-80 dark:from-background dark:via-background dark:to-background z-0"></div>
       
       {/* Animated background grid */}
-      <div className="absolute inset-0 z-0 opacity-20 dark:opacity-10">
+      <div className="absolute inset-0 z-0 opacity-20 dark:opacity-20">
         <div ref={animationRef} className="w-full h-full relative">
           {Array.from({ length: 12 }).map((_, i) => (
             <div 

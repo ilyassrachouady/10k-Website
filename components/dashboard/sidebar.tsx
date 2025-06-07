@@ -120,7 +120,7 @@ export function Sidebar({ isOpen, setIsOpen }: SidebarProps) {
 
           <div className="p-4 border-t">
             <div className="flex items-center space-x-3">
-              <div className="w-2 h-2 rounded-full bg-green-500" />
+              <div className="w-2 h-2 rounded-full bg-chart-4" />
               <div className="text-sm">
                 <p className="font-medium">All systems operational</p>
               </div>
