@@ -1,7 +1,5 @@
-# Angélique Cleaning Services
+# Angélique Cleaning Services — Framer-faithful adaptation
 
-Next.js 16 React redesign closely following Frontage's layout, reauthored for Angélique Cleaning Services in Montréal and Rive-Sud.
+Next.js implementation preserving the exact supplied Frontage page composition, responsive Framer styles and spacing, adapted to French Canadian branding and cleaning services.
 
-Install: `npm install`. Run: `npm run dev`.
-
-Client contact information to verify. Quote form opens a composed email; CRM integration is not active. Illustrative licensed-looking Pexels photos are examples, not portfolio work. Page is noindexed during client approval.
+The original template's reference photos are illustrative, not real Angélique customer work. No invented testimonials, insurance claims or prices are presented. Contact details require verification. Quote form opens a prefilled email and is not yet integrated with Ocliq/GHL.
