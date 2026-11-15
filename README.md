@@ -1,7 +1,7 @@
 # Angélique Cleaning Services
 
-Next.js 15 + React 19. Frontage-inspired responsive cleaning-services website for Montréal, Longueuil and Rive-Sud.
+Next.js 16 React redesign closely following Frontage's layout, reauthored for Angélique Cleaning Services in Montréal and Rive-Sud.
 
-Run `npm install && npm run dev`.
+Install: `npm install`. Run: `npm run dev`.
 
-Note: The quote form composes a draft email (mailto) rather than posting to GHL. Contact details are pending client verification.
+Client contact information to verify. Quote form opens a composed email; CRM integration is not active. Illustrative licensed-looking Pexels photos are examples, not portfolio work. Page is noindexed during client approval.
