@@ -1,0 +1,1 @@
+export default function robots(){return {rules:[{userAgent:'*',allow:'/'}],sitemap:'https://angelique-cleaning-services.vercel.app/sitemap.xml'};}
