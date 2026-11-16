@@ -1,0 +1,1 @@
+const base='https://angelique-cleaning-services.vercel.app';export default function sitemap(){return ['','/confidentialite','/conditions','/cookies'].map(path=>({url:base+path,lastModified:new Date(),changeFrequency:path?'yearly':'monthly',priority:path?0.2:1}));}
