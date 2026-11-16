@@ -32,3 +32,20 @@ html{scroll-padding-top:92px}
  #main [data-framer-name="Nav"] [data-framer-name="Logo"]{max-width:210px!important;white-space:nowrap!important}
  .angelique-mobile-menu-toggle{right:24px}
 }
+/* Mobile-only correction for Frontage's desktop flex columns.
+   Desktop width:1px columns need width:100% when stacked vertically. */
+@media (max-width:809.98px) {
+  .framer-0oULU .framer-1ra6x6b > .framer-1oa72cl,
+  .framer-0oULU .framer-1ra6x6b > .framer-17tv23o,
+  .framer-0oULU .framer-1ra6x6b > .framer-zsub4g {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+  .framer-0oULU .framer-1th30gt > .framer-197nr7j {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+}
